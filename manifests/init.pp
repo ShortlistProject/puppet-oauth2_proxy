@@ -22,7 +22,7 @@ class oauth2_proxy(
       gid    => $group,
       system => true,
       home   => '/',
-      shell  => '/sbin/nologin',
+      shell  => '/bin/false',
     }
   }
 
